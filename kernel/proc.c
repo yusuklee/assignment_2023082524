@@ -693,3 +693,7 @@ procdump(void)
     printf("\n");
   }
 }
+int getppid(void) {
+	  return myproc()->parent->pid;
+}
+
